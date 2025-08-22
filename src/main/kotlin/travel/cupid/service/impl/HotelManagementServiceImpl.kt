@@ -23,7 +23,6 @@ import travel.cupid.service.HotelLookupService
 import travel.cupid.service.HotelManagementService
 import travel.cupid.service.HotelReviewBackgroundService
 import travel.cupid.service.ReferenceDataService
-import java.lang.Exception
 
 @Service
 class HotelManagementServiceImpl(
@@ -106,7 +105,7 @@ class HotelManagementServiceImpl(
                 .toSet()
             val amenities = amenityRepository.findByExternalIdIn(uniqueAmenitiesIds)
             hotelRepository.save(externalHotel.toEntity(hotelFacilities, amenities.associateBy { it.externalId }))
-        } catch (e: Exception) {
+        } catch (e: CupidHotelNotFoundException) {
             log.error("syncAndPersist: Hotel not found for external hotel id $externalHotelId", e)
             throw HotelNotFoundException()
         }

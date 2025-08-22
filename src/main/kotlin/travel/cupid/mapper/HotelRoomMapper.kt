@@ -17,7 +17,7 @@ fun CupidHotel.Room.toEntity(amenitiesById: Map<Long?, Amenity>) = HotelRoom().a
         value = this@toEntity.roomSizeSquare
         unit = RoomSizeUnit.from(this@toEntity.roomSizeUnit)
     }
-    beds = this@toEntity.bedTypes.map { it.toEntity() }.toMutableSet()
+    beds = this@toEntity.bedTypes?.map { it.toEntity() }?.toMutableSet() ?: mutableSetOf()
     photos = this@toEntity.photos.map { it.toHotelRoomPhoto() }.toMutableSet()
 }
 

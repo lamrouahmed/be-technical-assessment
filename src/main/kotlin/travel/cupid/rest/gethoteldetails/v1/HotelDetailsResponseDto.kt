@@ -27,7 +27,7 @@ data class HotelDetailsResponseDto(
             chainId = hotel.chainId,
             coordinates = hotel.coordinates,
             address = hotel.address,
-            description = Description(text = hotelTranslation?.description?.text, markdown = hotelTranslation?.description?.markdown),
+            description = Description(text = hotelTranslation?.description?.text ?: hotel.description?.text, markdown = hotelTranslation?.description?.markdown ?: hotel.description?.markdown),
             photos = hotel.photos.map { HotelPhotoDto.from(it) },
             facilities = hotel.facilities.map { FacilityDto.from(it, language) },
             policies = hotel.policies.map { HotelPolicyDto.from(it) },

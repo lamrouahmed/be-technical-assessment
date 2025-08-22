@@ -17,7 +17,7 @@ This is a Spring Boot application for the Cupid technical assessment. It demonst
 1. **Clone the repository**
 
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/lamrouahmed/be-technical-assessment.git
    cd cupid-technical-assessment
    ```
 

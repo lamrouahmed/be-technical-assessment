@@ -27,7 +27,7 @@ data class CupidHotel(
     val rating: Double,
     val reviewCount: Int,
     val checkin: Checkin,
-    val parking: String,
+    val parking: String?,
     val groupRoomMin: Int?,
     val childAllowed: Boolean,
     val petsAllowed: Boolean,
@@ -105,7 +105,7 @@ data class CupidHotel(
         val maxChildren: Int,
         val maxOccupancy: Int,
         val bedRelation: String,
-        val bedTypes: Set<BedType>,
+        val bedTypes: Set<BedType>?,
         val roomAmenities: Set<RoomAmenity>,
         val photos: Set<Photo>,
     ) {
