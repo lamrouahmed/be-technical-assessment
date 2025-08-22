@@ -1,0 +1,966 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1755854847045-1
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: amenity_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-2
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: amenity_translations_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-3
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: facility_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-4
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: facility_translations_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-5
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_photos_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-6
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_policies_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-7
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_reviews_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-8
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_room_photos_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-9
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_room_translations_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-10
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_rooms_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-11
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-12
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: hotel_translations_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-13
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createSequence:
+            incrementBy: 50
+            sequenceName: room_beds_seq
+            startValue: 1
+  - changeSet:
+      id: 1755854847045-14
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_amenities
+                  name: id
+                  type: INT
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: sort_order
+                  type: INT
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: deleted_at
+                  type: DATETIME
+            tableName: amenities
+  - changeSet:
+      id: 1755854847045-15
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_amenity_translations
+                  name: id
+                  type: INT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: language
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(1000)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: amenity_id
+                  type: INT
+            tableName: amenity_translations
+  - changeSet:
+      id: 1755854847045-16
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_facilities
+                  name: id
+                  type: INT
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: sort_order
+                  type: INT
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: deleted_at
+                  type: DATETIME
+            tableName: facilities
+  - changeSet:
+      id: 1755854847045-17
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_facility_translations
+                  name: id
+                  type: INT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: language
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(1000)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: facility_id
+                  type: INT
+            tableName: facility_translations
+  - changeSet:
+      id: 1755854847045-18
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_facilities
+                  name: facility_id
+                  type: INT
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_facilities
+                  name: hotel_id
+                  type: BIGINT
+            tableName: hotel_facilities
+  - changeSet:
+      id: 1755854847045-19
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_photos
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: hd_url
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: is_main
+                  type: BOOLEAN
+              - column:
+                  name: score
+                  type: FLOAT
+              - column:
+                  name: hotel_id
+                  type: BIGINT
+            tableName: hotel_photos
+  - changeSet:
+      id: 1755854847045-20
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_policies
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: type
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  name: child_allowed
+                  type: VARCHAR(255)
+              - column:
+                  name: pets_allowed
+                  type: VARCHAR(255)
+              - column:
+                  name: parking
+                  type: VARCHAR(255)
+              - column:
+                  name: hotel_id
+                  type: BIGINT
+            tableName: hotel_policies
+  - changeSet:
+      id: 1755854847045-21
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_reviews
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  name: country
+                  type: VARCHAR(255)
+              - column:
+                  name: type
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: headline
+                  type: TEXT
+              - column:
+                  name: language
+                  type: VARCHAR(255)
+              - column:
+                  name: pros
+                  type: TEXT
+              - column:
+                  name: cons
+                  type: TEXT
+              - column:
+                  name: source
+                  type: VARCHAR(255)
+              - column:
+                  name: reviewed_at
+                  type: DATETIME
+              - column:
+                  name: hotel_id
+                  type: BIGINT
+            tableName: hotel_reviews
+  - changeSet:
+      id: 1755854847045-22
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_room_photos
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: hd_url
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: is_main
+                  type: BOOLEAN
+              - column:
+                  name: score
+                  type: FLOAT
+              - column:
+                  name: room_id
+                  type: BIGINT
+            tableName: hotel_room_photos
+  - changeSet:
+      id: 1755854847045-23
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_room_translations
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: language
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: room_id
+                  type: BIGINT
+            tableName: hotel_room_translations
+  - changeSet:
+      id: 1755854847045-24
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_rooms
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  name: max_children
+                  type: INT
+              - column:
+                  name: max_adults
+                  type: INT
+              - column:
+                  name: max_occupancy
+                  type: INT
+              - column:
+                  name: room_size
+                  type: FLOAT
+              - column:
+                  name: room_size_unit
+                  type: VARCHAR(255)
+              - column:
+                  name: hotel_id
+                  type: BIGINT
+            tableName: hotel_rooms
+  - changeSet:
+      id: 1755854847045-25
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotel_translations
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: language
+                  type: VARCHAR(255)
+              - column:
+                  name: important_info
+                  type: TEXT
+              - column:
+                  name: hotel_id
+                  type: BIGINT
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  name: markdown_description
+                  type: TEXT
+            tableName: hotel_translations
+  - changeSet:
+      id: 1755854847045-26
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_hotels
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: external_id
+                  type: BIGINT
+              - column:
+                  name: provider
+                  type: VARCHAR(255)
+              - column:
+                  name: main_image
+                  type: VARCHAR(255)
+              - column:
+                  name: chain_id
+                  type: INT
+              - column:
+                  name: reviews_count
+                  type: INT
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: deleted_at
+                  type: DATETIME
+              - column:
+                  name: latitude
+                  type: DOUBLE
+              - column:
+                  name: longitude
+                  type: DOUBLE
+              - column:
+                  name: street
+                  type: VARCHAR(255)
+              - column:
+                  name: city
+                  type: VARCHAR(255)
+              - column:
+                  name: state
+                  type: VARCHAR(255)
+              - column:
+                  name: country
+                  type: VARCHAR(255)
+              - column:
+                  name: postal_code
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  name: markdown_description
+                  type: TEXT
+            tableName: hotels
+  - changeSet:
+      id: 1755854847045-27
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_room_amenities
+                  name: amenity_id
+                  type: INT
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_room_amenities
+                  name: room_id
+                  type: BIGINT
+            tableName: room_amenities
+  - changeSet:
+      id: 1755854847045-28
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_room_beds
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: external_id
+                  type: INT
+              - column:
+                  name: quantity
+                  type: INT
+              - column:
+                  name: type
+                  type: VARCHAR(255)
+              - column:
+                  name: size
+                  type: VARCHAR(255)
+              - column:
+                  name: room_id
+                  type: BIGINT
+            tableName: room_beds
+  - changeSet:
+      id: 1755854847045-29
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: room_id, language
+            constraintName: uc_0ae75700164d3d02bcd5bc739
+            tableName: hotel_room_translations
+  - changeSet:
+      id: 1755854847045-30
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: hotel_id, language
+            constraintName: uc_0b361ad790a35b2dbb8cd8f24
+            tableName: hotel_translations
+  - changeSet:
+      id: 1755854847045-31
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: amenity_id, language
+            constraintName: uc_307813ebe33fa404fb9338141
+            tableName: amenity_translations
+  - changeSet:
+      id: 1755854847045-32
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: external_id, provider
+            constraintName: uc_48d8f3338b6267797efe1e7f5
+            tableName: hotels
+  - changeSet:
+      id: 1755854847045-33
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: facility_id, language
+            constraintName: uc_4fe67b200f40cbfc877d7ca37
+            tableName: facility_translations
+  - changeSet:
+      id: 1755854847045-34
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: provider
+            constraintName: uc_6a367eb5603a0b7bee9702740
+            tableName: amenities
+  - changeSet:
+      id: 1755854847045-35
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: external_id, provider
+            constraintName: uc_a0a2445f641488f043610019b
+            tableName: facilities
+  - changeSet:
+      id: 1755854847045-36
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: provider
+            constraintName: uc_c28fbe4a55bca34f1b0de02ab
+            tableName: hotel_rooms
+  - changeSet:
+      id: 1755854847045-37
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: external_id
+            indexName: idx_amenities_external_id
+            tableName: amenities
+  - changeSet:
+      id: 1755854847045-38
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: language
+            indexName: idx_amenity_translations_language
+            tableName: amenity_translations
+  - changeSet:
+      id: 1755854847045-39
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: external_id
+            indexName: idx_facilities_external_id
+            tableName: facilities
+  - changeSet:
+      id: 1755854847045-40
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: language
+            indexName: idx_facility_translations_language
+            tableName: facility_translations
+  - changeSet:
+      id: 1755854847045-41
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: language
+            indexName: idx_hotel_room_translations_language
+            tableName: hotel_room_translations
+  - changeSet:
+      id: 1755854847045-42
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createIndex:
+            columns:
+              - column:
+                  name: language
+            indexName: idx_hotel_translations_language
+            tableName: hotel_translations
+  - changeSet:
+      id: 1755854847045-43
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: amenity_id
+            baseTableName: amenity_translations
+            constraintName: FK_AMENITY_TRANSLATIONS_ON_AMENITY
+            referencedColumnNames: id
+            referencedTableName: amenities
+  - changeSet:
+      id: 1755854847045-44
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: facility_id
+            baseTableName: facility_translations
+            constraintName: FK_FACILITY_TRANSLATIONS_ON_FACILITY
+            referencedColumnNames: id
+            referencedTableName: facilities
+  - changeSet:
+      id: 1755854847045-45
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_photos
+            constraintName: FK_HOTEL_PHOTOS_ON_HOTEL
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-46
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_policies
+            constraintName: FK_HOTEL_POLICIES_ON_HOTEL
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-47
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_reviews
+            constraintName: FK_HOTEL_REVIEWS_ON_HOTEL
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-48
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_rooms
+            constraintName: FK_HOTEL_ROOMS_ON_HOTEL
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-49
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: room_id
+            baseTableName: hotel_room_photos
+            constraintName: FK_HOTEL_ROOM_PHOTOS_ON_ROOM
+            referencedColumnNames: id
+            referencedTableName: hotel_rooms
+  - changeSet:
+      id: 1755854847045-50
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: room_id
+            baseTableName: hotel_room_translations
+            constraintName: FK_HOTEL_ROOM_TRANSLATIONS_ON_ROOM
+            referencedColumnNames: id
+            referencedTableName: hotel_rooms
+  - changeSet:
+      id: 1755854847045-51
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_translations
+            constraintName: FK_HOTEL_TRANSLATIONS_ON_HOTEL
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-52
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: room_id
+            baseTableName: room_beds
+            constraintName: FK_ROOM_BEDS_ON_ROOM
+            referencedColumnNames: id
+            referencedTableName: hotel_rooms
+  - changeSet:
+      id: 1755854847045-53
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: facility_id
+            baseTableName: hotel_facilities
+            constraintName: fk_hotfac_on_facility
+            referencedColumnNames: id
+            referencedTableName: facilities
+  - changeSet:
+      id: 1755854847045-54
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: hotel_id
+            baseTableName: hotel_facilities
+            constraintName: fk_hotfac_on_hotel
+            referencedColumnNames: id
+            referencedTableName: hotels
+  - changeSet:
+      id: 1755854847045-55
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: amenity_id
+            baseTableName: room_amenities
+            constraintName: fk_rooame_on_amenity
+            referencedColumnNames: id
+            referencedTableName: amenities
+  - changeSet:
+      id: 1755854847045-56
+      author: mohamed
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: room_id
+            baseTableName: room_amenities
+            constraintName: fk_rooame_on_hotel_room
+            referencedColumnNames: id
+            referencedTableName: hotel_rooms
+

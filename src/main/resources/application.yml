@@ -1,0 +1,65 @@
+spring:
+
+  application:
+    name: cupid-technical-assessment
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 50
+          batch_versioned_data: true
+        order_inserts: true
+        order_updates: true
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cupid-db
+    username: ${POSTGRES_USERNAME:username}
+    password: ${POSTGRES_PASSWORD:password}
+
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog-master.yml
+
+  docker:
+    compose:
+      file: src/main/docker/compose.yml
+
+
+
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      timeout: 5000ms
+
+  cache:
+    type: redis
+
+
+connectors:
+  cupid:
+    api:
+      version: v3.0
+      key: ${CUPID_API_KEY:i2O4p6A8s0D3f5G7h9J1k3L5m7N9b}
+      url: https://content-api.cupid.travel/${connectors.cupid.api.version}
+
+
+logging:
+  level:
+    travel.cupid.connectors.cupid.clients.*: DEBUG
+    feign: DEBUG
+
+
+app:
+  sync:
+    reviews-batch-size: 100

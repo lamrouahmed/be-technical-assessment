@@ -1,0 +1,630 @@
+{
+  "mappings": [{
+    "scenarioName": "Response For Amenities - 200 OK",
+    "request": {
+      "method": "GET",
+      "urlPath": "/v3.0/property/room_amenities"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": [{
+        "amenity_id": 33,
+        "amenity": "Blu-ray player",
+        "sort": 1,
+        "translation": [
+          {
+            "lang": "fr",
+            "amenity": "Lecteur Blu-ray"
+          },
+          {
+            "lang": "it",
+            "amenity": "Lettore Blu-ray"
+          },
+          {
+            "lang": "es",
+            "amenity": "Reproductor Blu-ray"
+          },
+          {
+            "lang": "de",
+            "amenity": "Blu-ray-Player"
+          },
+          {
+            "lang": "tr",
+            "amenity": "Blu-ray oynatıcı"
+          },
+          {
+            "lang": "ar",
+            "amenity": "جهاز تشغيل بلو راي"
+          },
+          {
+            "lang": "nl",
+            "amenity": "Blu-ray-speler"
+          },
+          {
+            "lang": "pl",
+            "amenity": "Odtwarzacz Blu-ray"
+          },
+          {
+            "lang": "cs",
+            "amenity": "Blu-ray přehrávač"
+          },
+          {
+            "lang": "hu",
+            "amenity": "Blu-ray lejátszó"
+          },
+          {
+            "lang": "pt",
+            "amenity": "Reprodutor de Blu-ray"
+          },
+          {
+            "lang": "ro",
+            "amenity": "Player Blu-ray"
+          },
+          {
+            "lang": "ru",
+            "amenity": "Проигрыватель Blu-ray"
+          },
+          {
+            "lang": "el",
+            "amenity": "Αναπαραγωγέας Blu-ray"
+          },
+          {
+            "lang": "bg",
+            "amenity": "Blu-ray плейър"
+          },
+          {
+            "lang": "sv",
+            "amenity": "Blu-ray-spelare"
+          },
+          {
+            "lang": "hr",
+            "amenity": "Blu-ray uređaj"
+          },
+          {
+            "lang": "sk",
+            "amenity": "Blu-ray prehrávač"
+          },
+          {
+            "lang": "lt",
+            "amenity": "Blu-ray grotuvė"
+          },
+          {
+            "lang": "nb",
+            "amenity": "Blu-ray-spiller"
+          },
+          {
+            "lang": "da",
+            "amenity": "Blu-ray-afspiller"
+          },
+          {
+            "lang": "ja",
+            "amenity": "ブルーレイプレーヤー"
+          },
+          {
+            "lang": "lv",
+            "amenity": "Blu-ray atskaņotājs"
+          },
+          {
+            "lang": "uk",
+            "amenity": "Програвач Blu-ray"
+          },
+          {
+            "lang": "zh",
+            "amenity": "蓝光播放器"
+          },
+          {
+            "lang": "sl",
+            "amenity": "Blu-ray predvajalnik"
+          },
+          {
+            "lang": "fi",
+            "amenity": "Blu-ray-soitin"
+          },
+          {
+            "lang": "ca",
+            "amenity": "Reproductor de Blu-ray"
+          },
+          {
+            "lang": "et",
+            "amenity": "Blu-ray mängija"
+          }
+        ]
+      },
+        {
+          "amenity_id": 42,
+          "amenity": "Carpeted",
+          "sort": 2,
+          "translation": [
+            {
+              "lang": "fr",
+              "amenity": "Moquette"
+            },
+            {
+              "lang": "it",
+              "amenity": "Moquette"
+            },
+            {
+              "lang": "es",
+              "amenity": "Con alfombra"
+            },
+            {
+              "lang": "de",
+              "amenity": "Mit Teppichboden versehen"
+            },
+            {
+              "lang": "tr",
+              "amenity": "Halılı"
+            },
+            {
+              "lang": "ar",
+              "amenity": "مغطى بالسجاد"
+            },
+            {
+              "lang": "nl",
+              "amenity": "Tapijtvloer"
+            },
+            {
+              "lang": "pl",
+              "amenity": "Wyłożony dywanem"
+            },
+            {
+              "lang": "cs",
+              "amenity": "Koberec"
+            },
+            {
+              "lang": "hu",
+              "amenity": "Szőnyegpadlós"
+            },
+            {
+              "lang": "pt",
+              "amenity": "Alcatifado"
+            },
+            {
+              "lang": "ro",
+              "amenity": "Cu covor."
+            },
+            {
+              "lang": "ru",
+              "amenity": "Ковровое покрытие"
+            },
+            {
+              "lang": "el",
+              "amenity": "Καλυμμένο με χαλί"
+            },
+            {
+              "lang": "bg",
+              "amenity": "Покрит с килим"
+            },
+            {
+              "lang": "sv",
+              "amenity": "Med matta"
+            },
+            {
+              "lang": "hr",
+              "amenity": "S prekrivačem"
+            },
+            {
+              "lang": "sk",
+              "amenity": ""
+            },
+            {
+              "lang": "lt",
+              "amenity": "Kiliminė danga"
+            },
+            {
+              "lang": "nb",
+              "amenity": "Teppetgulv"
+            },
+            {
+              "lang": "da",
+              "amenity": "Tæppebelagt"
+            },
+            {
+              "lang": "ja",
+              "amenity": "カーペット敷き"
+            },
+            {
+              "lang": "lv",
+              "amenity": "Paklājs"
+            },
+            {
+              "lang": "uk",
+              "amenity": "З килимовим покриттям"
+            },
+            {
+              "lang": "zh",
+              "amenity": "地毯铺设"
+            },
+            {
+              "lang": "sl",
+              "amenity": "Preproga"
+            },
+            {
+              "lang": "fi",
+              "amenity": "Mattoisuus"
+            },
+            {
+              "lang": "ca",
+              "amenity": "Estoretat"
+            },
+            {
+              "lang": "et",
+              "amenity": "Vaipkattega"
+            }
+          ]
+        },
+        {
+          "amenity_id": 129,
+          "amenity": "Freezer",
+          "sort": 3,
+          "translation": [
+            {
+              "lang": "fr",
+              "amenity": "Congélateur"
+            },
+            {
+              "lang": "it",
+              "amenity": "Congelatore"
+            },
+            {
+              "lang": "es",
+              "amenity": "Congelador"
+            },
+            {
+              "lang": "de",
+              "amenity": "Gefrierschrank"
+            },
+            {
+              "lang": "tr",
+              "amenity": "Dondurucu"
+            },
+            {
+              "lang": "ar",
+              "amenity": "ثلاجة تجميد"
+            },
+            {
+              "lang": "nl",
+              "amenity": "Vriezer"
+            },
+            {
+              "lang": "pl",
+              "amenity": "Zamrażarka"
+            },
+            {
+              "lang": "cs",
+              "amenity": "Mrazák"
+            },
+            {
+              "lang": "hu",
+              "amenity": "Fagyasztó"
+            },
+            {
+              "lang": "pt",
+              "amenity": "Congelador"
+            },
+            {
+              "lang": "ro",
+              "amenity": "Congelator"
+            },
+            {
+              "lang": "ru",
+              "amenity": "Морозильник"
+            },
+            {
+              "lang": "el",
+              "amenity": "Καταψύκτης"
+            },
+            {
+              "lang": "bg",
+              "amenity": "Ледник"
+            },
+            {
+              "lang": "sv",
+              "amenity": "Frysfack"
+            },
+            {
+              "lang": "hr",
+              "amenity": "Zamrzivač"
+            },
+            {
+              "lang": "sk",
+              "amenity": "Mraznička"
+            },
+            {
+              "lang": "lt",
+              "amenity": "Šaldiklis"
+            },
+            {
+              "lang": "nb",
+              "amenity": "Fryser"
+            },
+            {
+              "lang": "da",
+              "amenity": "Fryser"
+            },
+            {
+              "lang": "ja",
+              "amenity": "冷凍庫"
+            },
+            {
+              "lang": "lv",
+              "amenity": "Saldētava"
+            },
+            {
+              "lang": "uk",
+              "amenity": "Морозильна камера"
+            },
+            {
+              "lang": "zh",
+              "amenity": "冷冻柜"
+            },
+            {
+              "lang": "sl",
+              "amenity": "Zamrzovalnik"
+            },
+            {
+              "lang": "fi",
+              "amenity": "Pakastin"
+            },
+            {
+              "lang": "ca",
+              "amenity": "Congelador"
+            },
+            {
+              "lang": "et",
+              "amenity": "Sügavkülmik"
+            }
+          ]
+        },
+        {
+          "amenity_id": 70,
+          "amenity": "Concierge services",
+          "sort": 4,
+          "translation": [
+            {
+              "lang": "fr",
+              "amenity": "Services de conciergerie"
+            },
+            {
+              "lang": "it",
+              "amenity": "Servizi di Concierge"
+            },
+            {
+              "lang": "es",
+              "amenity": "Servicios de conserjería"
+            },
+            {
+              "lang": "de",
+              "amenity": "Concierge-Services"
+            },
+            {
+              "lang": "tr",
+              "amenity": "Misafir hizmetleri"
+            },
+            {
+              "lang": "ar",
+              "amenity": "خدمات الكونسيرج"
+            },
+            {
+              "lang": "nl",
+              "amenity": "Conciërgediensten"
+            },
+            {
+              "lang": "pl",
+              "amenity": "Usługi konsjerża"
+            },
+            {
+              "lang": "cs",
+              "amenity": "Služby komorníka"
+            },
+            {
+              "lang": "hu",
+              "amenity": "Recepciós szolgáltatások"
+            },
+            {
+              "lang": "pt",
+              "amenity": "Serviços de Concierge"
+            },
+            {
+              "lang": "ro",
+              "amenity": "Servicii de concierge"
+            },
+            {
+              "lang": "ru",
+              "amenity": "Услуги консьержа"
+            },
+            {
+              "lang": "el",
+              "amenity": "Υπηρεσίες συνεργάτη"
+            },
+            {
+              "lang": "bg",
+              "amenity": "Услуги консиерж"
+            },
+            {
+              "lang": "sv",
+              "amenity": "Concierge-tjänster"
+            },
+            {
+              "lang": "hr",
+              "amenity": "Usluge kongijerža"
+            },
+            {
+              "lang": "sk",
+              "amenity": "Koncieržne služby"
+            },
+            {
+              "lang": "lt",
+              "amenity": "Konsjeržo paslaugos"
+            },
+            {
+              "lang": "nb",
+              "amenity": "Concierge-tjenester"
+            },
+            {
+              "lang": "da",
+              "amenity": "Concierge-services"
+            },
+            {
+              "lang": "ja",
+              "amenity": "コンシェルジュサービス"
+            },
+            {
+              "lang": "lv",
+              "amenity": "Konsjerža pakalpojumi"
+            },
+            {
+              "lang": "uk",
+              "amenity": "Послуги консьєржа"
+            },
+            {
+              "lang": "zh",
+              "amenity": "礼宾服务"
+            },
+            {
+              "lang": "sl",
+              "amenity": "Konzieržske storitve"
+            },
+            {
+              "lang": "fi",
+              "amenity": "Konsyyripalvelut"
+            },
+            {
+              "lang": "ca",
+              "amenity": "Serveis de consergeria"
+            },
+            {
+              "lang": "et",
+              "amenity": "Konsiižiteenused"
+            }
+          ]
+        },
+        {
+          "amenity_id": 45,
+          "amenity": "Champagne service",
+          "sort": 5,
+          "translation": [
+            {
+              "lang": "fr",
+              "amenity": "Service de champagne"
+            },
+            {
+              "lang": "it",
+              "amenity": "Servizio Champagne"
+            },
+            {
+              "lang": "es",
+              "amenity": "Servicio de champana"
+            },
+            {
+              "lang": "de",
+              "amenity": "Champagner-Service"
+            },
+            {
+              "lang": "tr",
+              "amenity": "Şampanya servisi"
+            },
+            {
+              "lang": "ar",
+              "amenity": "خدمة الشمبانيا"
+            },
+            {
+              "lang": "nl",
+              "amenity": "Champagneservice"
+            },
+            {
+              "lang": "pl",
+              "amenity": "Serwis szampana"
+            },
+            {
+              "lang": "cs",
+              "amenity": "Služba šampaňského"
+            },
+            {
+              "lang": "hu",
+              "amenity": "Pezsgőszolgáltatás"
+            },
+            {
+              "lang": "pt",
+              "amenity": "Serviço de champanhe"
+            },
+            {
+              "lang": "ro",
+              "amenity": "Serviciu de șampanie"
+            },
+            {
+              "lang": "ru",
+              "amenity": "Обслуживание шампанского"
+            },
+            {
+              "lang": "el",
+              "amenity": "Υπηρεσία σαμπάνιας"
+            },
+            {
+              "lang": "bg",
+              "amenity": "Обслужване на шампанско"
+            },
+            {
+              "lang": "sv",
+              "amenity": "Champagne service\nTjänst för champagne"
+            },
+            {
+              "lang": "hr",
+              "amenity": "Usluga šampanjca"
+            },
+            {
+              "lang": "sk",
+              "amenity": "Služba šampanského"
+            },
+            {
+              "lang": "lt",
+              "amenity": "Šampano aptarnavimas"
+            },
+            {
+              "lang": "nb",
+              "amenity": "Champagne-servering"
+            },
+            {
+              "lang": "da",
+              "amenity": "Champagne-service"
+            },
+            {
+              "lang": "ja",
+              "amenity": "シャンパンサービス"
+            },
+            {
+              "lang": "lv",
+              "amenity": "Šampanieša serviss"
+            },
+            {
+              "lang": "uk",
+              "amenity": "Обслуговування шампанського"
+            },
+            {
+              "lang": "zh",
+              "amenity": "香槟服务"
+            },
+            {
+              "lang": "sl",
+              "amenity": "Stresanje šampanjca"
+            },
+            {
+              "lang": "fi",
+              "amenity": "Kuohujuomapalvelu"
+            },
+            {
+              "lang": "ca",
+              "amenity": "Servei de xampany"
+            },
+            {
+              "lang": "et",
+              "amenity": "Šampanja teenus"
+            }
+          ]
+        }],
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }]
+}

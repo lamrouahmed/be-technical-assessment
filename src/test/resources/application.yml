@@ -1,0 +1,22 @@
+spring:
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+
+  liquibase:
+    enabled: false
+
+
+
+connectors:
+  cupid:
+    api:
+      version: v3.0
+      key: ${CUPID_API_KEY:i2O4p6A8s0D3f5G7h9J1k3L5m7N9b}
+
+
+app:
+  sync:
+    reviews-batch-size: 100

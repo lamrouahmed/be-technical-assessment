@@ -1,0 +1,3169 @@
+{
+  "mappings": [{
+    "scenarioName": "Response For Hotel Translation - 200 OK",
+    "request": {
+      "method": "GET",
+      "urlPath": "/v3.0/property/111/lang/es"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "hotel_id": 111,
+        "cupid_id": 111,
+        "main_image_th": "https://static.cupid.travel/hotels/thumbnail/173607500.jpg",
+        "hotel_type": "Hoteles",
+        "hotel_type_id": 204,
+        "chain": "Z Hotels",
+        "chain_id": 8718,
+        "latitude": 51.51108,
+        "longitude": -0.12449,
+        "hotel_name": "Hotel Z Covent Garden",
+        "phone": "+442038376303",
+        "fax": "",
+        "email": "coventgarden@thezhotels.com",
+        "address": {
+          "address": "31-32 Bedford Street",
+          "city": "London",
+          "state": "Greater London",
+          "country": "gb",
+          "postal_code": "WC2E 9ED"
+        },
+        "stars": 3,
+        "airport_code": "",
+        "rating": 8.3,
+        "review_count": 10257,
+        "checkin": {
+          "checkin_start": "15:00",
+          "checkin_end": "",
+          "checkout": "11:00",
+          "instructions": [],
+          "special_instructions": ""
+        },
+        "parking": "NO DISPONIBLE",
+        "group_room_min": null,
+        "child_allowed": true,
+        "pets_allowed": false,
+        "photos": [
+          {
+            "url": "https://static.cupid.travel/hotels/173607500.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607500.jpg",
+            "image_description": "photo of a white door in front of a brick building",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": true,
+            "score": 5.05,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607995.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607995.jpg",
+            "image_description": "photo of people walking down the sidewalk in front of a store",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.64,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606746.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606746.jpg",
+            "image_description": "black and white bathroom with a walk - in shower",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.62,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/166038487.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/166038487.jpg",
+            "image_description": "glass walled room with a bed in the middle of it",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.59,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762669.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762669.jpg",
+            "image_description": "deck with a couch, table, and two chairs",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.58,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607478.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607478.jpg",
+            "image_description": "sign on the side of a building that says z hotels",
+            "image_class1": "recepción del hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.53,
+            "class_id": 79,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608022.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608022.jpg",
+            "image_description": "blue and white sign with the word underground on it",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.49,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606640.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606640.jpg",
+            "image_description": "bathroom with black cabinets and white towels on the shelves",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.48,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608043.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608043.jpg",
+            "image_description": "woman walking down the sidewalk in front of a building",
+            "image_class1": "spa",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.47,
+            "class_id": 161,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762977.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762977.jpg",
+            "image_description": "black and white bathroom with a walk - in shower",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.45,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983627.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983627.jpg",
+            "image_description": "bathroom sink with a chrome faucet and soap dispenser",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.44,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606820.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606820.jpg",
+            "image_description": "pink orchid in a pot on the window sill",
+            "image_class1": "spa",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.41,
+            "class_id": 161,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607492.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607492.jpg",
+            "image_description": "red brick building with a white arch above the door",
+            "image_class1": "restaurante",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.36,
+            "class_id": 152,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606699.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606699.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.36,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606811.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606811.jpg",
+            "image_description": "photo of a dining room with wine bottles on the wall",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.36,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608083.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608083.jpg",
+            "image_description": "pair of red telephone booths in front of a white building",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.36,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608053.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608053.jpg",
+            "image_description": "photo of a storefront window with flowers in it",
+            "image_class1": "balcón",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.34,
+            "class_id": 12,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762687.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762687.jpg",
+            "image_description": "hotel room with a bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.33,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607438.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607438.jpg",
+            "image_description": "photo of the front door of a building at night",
+            "image_class1": "recepción del hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.33,
+            "class_id": 79,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983630.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983630.jpg",
+            "image_description": "close up of a pair of scissors on a stand",
+            "image_class1": "gimnasio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.32,
+            "class_id": 62,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983633.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983633.jpg",
+            "image_description": "black and white bathroom with a sink and shower stall",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.31,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607975.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607975.jpg",
+            "image_description": "large white building with columns and people walking in front of it",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.3,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762653.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762653.jpg",
+            "image_description": "view from the roof of an apartment in new york city",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.29,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587763011.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587763011.jpg",
+            "image_description": "view of london from the top of one of the buildings",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.29,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607463.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607463.jpg",
+            "image_description": "view of the city from the top of a building",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.28,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606693.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606693.jpg",
+            "image_description": "hotel room with a bed and clothes hangers on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.28,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607987.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607987.jpg",
+            "image_description": "lot of people walking around in front of the building",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.27,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/166038492.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/166038492.jpg",
+            "image_description": "hotel room with a staircase leading up to the bed",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.26,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762989.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762989.jpg",
+            "image_description": "balcony with a table and chairs overlooking a cityscape",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.25,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606783.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606783.jpg",
+            "image_description": "display of jams for sale at a grocery store",
+            "image_class1": "bufé de desayuno",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.25,
+            "class_id": 39,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606670.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606670.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.24,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608026.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608026.jpg",
+            "image_description": "red brick building with a sign that says covent garden station",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.23,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608077.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608077.jpg",
+            "image_description": "photo of the entrance to the opera house in london",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.23,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606704.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606704.jpg",
+            "image_description": "hotel room with a large bed and a glass shower",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.23,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606639.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606639.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.22,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606650.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606650.jpg",
+            "image_description": "hotel room with a large bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.22,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983634.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983634.jpg",
+            "image_description": "bathroom with a walk in shower and a white sink",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.21,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762719.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762719.jpg",
+            "image_description": "view from the roof of a building in london?",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.21,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/359860140.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/359860140.jpg",
+            "image_description": "bed with white sheets and pillows in a hotel room",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.2,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983637.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983637.jpg",
+            "image_description": "white sink with a chrome faucet on it",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.2,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608091.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608091.jpg",
+            "image_description": "small kiosk on the side of the street",
+            "image_class1": "zona de barbacoa al aire libre",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.19,
+            "class_id": 130,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/359859947.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/359859947.jpg",
+            "image_description": "bedroom with a large bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.18,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983707.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983707.jpg",
+            "image_description": "hotel room with a bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.17,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606632.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606632.jpg",
+            "image_description": "hotel room with a bed, sink, and television",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.16,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606686.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606686.jpg",
+            "image_description": "hotel room with a bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.15,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606664.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606664.jpg",
+            "image_description": "hotel room with a black headboard and white bedding",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.14,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608104.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608104.jpg",
+            "image_description": "view of the front of a building with christmas garlands on the balconies",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.13,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606720.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606720.jpg",
+            "image_description": "bedroom with a flat screen tv mounted on the wall",
+            "image_class1": "balcón",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.13,
+            "class_id": 12,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607455.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607455.jpg",
+            "image_description": "view of the city from the top of a building",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.12,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606709.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606709.jpg",
+            "image_description": "bathroom with a shower and a bed in the corner",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.12,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606658.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606658.jpg",
+            "image_description": "bedroom with a black headboard and white bedding",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.12,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607990.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607990.jpg",
+            "image_description": "red flag with the royal opera house logo on it",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.11,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587763019.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587763019.jpg",
+            "image_description": "panoramic view of the city of london?",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.1,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606737.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606737.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.1,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607999.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607999.jpg",
+            "image_description": "british flag flying in the wind outside of a building",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.09,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608016.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608016.jpg",
+            "image_description": "woman walking down the street in front of the crown",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.09,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606587.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606587.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.09,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607964.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607964.jpg",
+            "image_description": "brick building with a clock on the top of it",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.08,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606774.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606774.jpg",
+            "image_description": "photo of a woman sitting at a table in a restaurant",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.07,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606841.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606841.jpg",
+            "image_description": "photo of a restaurant with people sitting at the counter",
+            "image_class1": "recepción del hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.06,
+            "class_id": 79,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608066.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608066.jpg",
+            "image_description": "photo of people walking in front of a train station",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.05,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762602.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762602.jpg",
+            "image_description": "black and white bedroom with a view of the city",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.05,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606606.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606606.jpg",
+            "image_description": "hotel room with a bed in the middle of it",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.04,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/359859846.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/359859846.jpg",
+            "image_description": "bedroom with a large bed and a flat screen tv",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.01,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/587762999.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/587762999.jpg",
+            "image_description": "panoramic view of the city of london?",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 5.01,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606797.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606797.jpg",
+            "image_description": "cup of yogurt with strawberries and granola",
+            "image_class1": "bufé de desayuno",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.98,
+            "class_id": 39,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606600.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606600.jpg",
+            "image_description": "hotel room with a small bed and a glass shower",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.98,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606833.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606833.jpg",
+            "image_description": "photo of a restaurant with people sitting at the counter",
+            "image_class1": "recepción del hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.98,
+            "class_id": 79,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606619.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606619.jpg",
+            "image_description": "hotel room with a flat screen tv on the wall",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.97,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606678.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606678.jpg",
+            "image_description": "black and white photo of a bathroom with a sink and shower",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.96,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/359859755.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/359859755.jpg",
+            "image_description": "hotel room with a bed, chair, and desk",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.96,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/245204357.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/245204357.jpg",
+            "image_description": "toothbrush and soap on a plate in front of a mirror",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.93,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/162983641.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/162983641.jpg",
+            "image_description": "reflection of two plates with toothpaste on them",
+            "image_class1": "bufé de desayuno",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.87,
+            "class_id": 39,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606590.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606590.jpg",
+            "image_description": "bathroom with a glass shower door, sink and mirror",
+            "image_class1": "",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.83,
+            "class_id": 0,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606646.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606646.jpg",
+            "image_description": "bathroom with a sink, shower and bed in the background",
+            "image_class1": "baño",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.83,
+            "class_id": 26,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173607442.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173607442.jpg",
+            "image_description": "view of london at night from the roof of a building",
+            "image_class1": "techo",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.81,
+            "class_id": 153,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/171361580.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/171361580.jpg",
+            "image_description": "couple of people standing in the doorway of a building",
+            "image_class1": "recepción del hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.74,
+            "class_id": 79,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608006.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608006.jpg",
+            "image_description": "billboard for matilda, the musical in new york city",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.7,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/359859627.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/359859627.jpg",
+            "image_description": "hotel room with a king size bed and a chair",
+            "image_class1": "habitación de hotel",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.44,
+            "class_id": 80,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608031.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608031.jpg",
+            "image_description": "red double decker bus parked in front of a building",
+            "image_class1": "edificio",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.16,
+            "class_id": 41,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173606827.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173606827.jpg",
+            "image_description": "restaurant with tables and chairs in front of the counter",
+            "image_class1": "restaurante",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 4.16,
+            "class_id": 152,
+            "class_order": 0
+          },
+          {
+            "url": "https://static.cupid.travel/hotels/173608098.jpg",
+            "hd_url": "https://static.cupid.travel/hotels/173608098.jpg",
+            "image_description": "photo of the inside of a covered market place?",
+            "image_class1": "jardín",
+            "image_class2": "",
+            "main_photo": false,
+            "score": 3.8,
+            "class_id": 68,
+            "class_order": 0
+          }
+        ],
+        "description": "<p><strong>Ubicación céntrica en el West End de Londres</strong></p><p>Z Covent Garden ofrece un hotel de 113 habitaciones en el corazón del West End de Londres. La propiedad está convenientemente situada justo detrás de la iglesia de St. Paul y la famosa plaza de Covent Garden, la primera plaza moderna de Londres.</p><p><strong>Comodidades modernas y habitaciones confortables</strong></p><p>Los huéspedes pueden disfrutar de Wi-Fi gratuito en todo el hotel, incluyendo las áreas de recepción y cafetería. Todas las habitaciones están equipadas con baños privados con ducha y amplios televisores Samsung HD con acceso completo a los canales de Sky y BT Sport.</p><p><strong>Acceso conveniente a atracciones populares</strong></p><p>Ubicado a pocos pasos de bares, restaurantes, museos, galerías y tiendas boutique de Covent Garden, el hotel es perfecto para los huéspedes que desean explorar la vibrante escena de Londres. Con la estación de metro de Covent Garden a tan solo 350 metros de distancia, y las estaciones de Leicester Square y Charing Cross a menos de 500 metros, el transporte es muy fácil.</p><p>Reserve su estancia en Z Covent Garden para una experiencia memorable en el bullicioso West End de Londres. ¡No se pierda ningún detalle, son importantes!</p>",
+        "markdown_description": "**Ubicación céntrica en el West End de Londres**\n\nZ Covent Garden ofrece un hotel de 113 habitaciones en el corazón del West End de Londres. La propiedad está convenientemente situada justo detrás de la iglesia de St. Paul y la famosa plaza de Covent Garden, la primera plaza moderna de Londres.\n\n**Comodidades modernas y habitaciones confortables**\n\nLos huéspedes pueden disfrutar de Wi-Fi gratuito en todo el hotel, incluyendo las áreas de recepción y cafetería. Todas las habitaciones están equipadas con baños privados con ducha y amplios televisores Samsung HD con acceso completo a los canales de Sky y BT Sport.\n\n**Acceso conveniente a atracciones populares**\n\nUbicado a pocos pasos de bares, restaurantes, museos, galerías y tiendas boutique de Covent Garden, el hotel es perfecto para los huéspedes que desean explorar la vibrante escena de Londres. Con la estación de metro de Covent Garden a tan solo 350 metros de distancia, y las estaciones de Leicester Square y Charing Cross a menos de 500 metros, el transporte es muy fácil.\n\nReserve su estancia en Z Covent Garden para una experiencia memorable en el bullicioso West End de Londres. ¡No se pierda ningún detalle, son importantes!",
+        "important_info": "Los huéspedes deberán mostrar un documento de identidad válido y una tarjeta de crédito al realizar el registro de entrada. Ten en cuenta que todas las peticiones especiales están sujetas a disponibilidad y pueden comportar suplementos.\nEn respuesta al coronavirus (COVID-19), el alojamiento aplica medidas sanitarias y de seguridad adicionales en estos momentos.\nA causa del coronavirus (COVID-19), este alojamiento está tomando medidas para garantizar la seguridad de los clientes y el personal. Por este motivo, algunos servicios e instalaciones pueden verse limitados o no estar disponibles.\nSegún las indicaciones del Gobierno para minimizar el contagio del coronavirus (COVID-19), este alojamiento no aceptará a clientes de algunos países mientras dichas indicaciones sigan vigentes.\nAtención: la tarjeta utilizada para la reserva debe presentarse a la llegada junto con el documento de identidad de su titular.\n\nSi se utiliza una tarjeta de crédito corporativa o de un tercero que no forme parte de la reserva, se deberá presentar un formulario de autorización firmado por el titular de la tarjeta, además de una copia de la tarjeta de crédito y un documento de identidad oficial en vigor.\n\nLos niños menores de 18 años solo pueden alojarse si van acompañados de alguno de sus progenitores de un tutor legal.",
+        "facilities": [
+          {
+            "facility_id": 16,
+            "name": "Habitaciones para no fumadores"
+          },
+          {
+            "facility_id": 109,
+            "name": "Aire acondicionado"
+          },
+          {
+            "facility_id": 28,
+            "name": "Habitaciones familiares"
+          },
+          {
+            "facility_id": 48,
+            "name": "Ascensor"
+          },
+          {
+            "facility_id": 91,
+            "name": "Deposito de valijas"
+          },
+          {
+            "facility_id": 49,
+            "name": "Entrada/salida exprés"
+          },
+          {
+            "facility_id": 81,
+            "name": "Fax/fotocopiadora"
+          },
+          {
+            "facility_id": 64,
+            "name": "Habitaciones insonorizadas"
+          },
+          {
+            "facility_id": 25,
+            "name": "Instalaciones para personas discapacitadas"
+          },
+          {
+            "facility_id": 44,
+            "name": "Servicio de planchado"
+          },
+          {
+            "facility_id": 108,
+            "name": "No fumar en todo"
+          },
+          {
+            "facility_id": 143,
+            "name": "Sala de estar/TV compartida"
+          },
+          {
+            "facility_id": 159,
+            "name": "Entregas de comestibles"
+          },
+          {
+            "facility_id": 185,
+            "name": "Silla de ruedas accesible"
+          },
+          {
+            "facility_id": 101,
+            "name": "Habitación libre de alérgicos"
+          },
+          {
+            "facility_id": 189,
+            "name": "Cordón de emergencia en el baño."
+          },
+          {
+            "facility_id": 219,
+            "name": "Cafetería en el sitio"
+          },
+          {
+            "facility_id": 205,
+            "name": "frutas"
+          },
+          {
+            "facility_id": 455,
+            "name": "El personal cumple con los protocolos de seguridad locales."
+          },
+          {
+            "facility_id": 461,
+            "name": "Pago sin efectivo disponible"
+          },
+          {
+            "facility_id": 425,
+            "name": "Extintores"
+          },
+          {
+            "facility_id": 459,
+            "name": "Botiquín de primeros auxilios disponible"
+          },
+          {
+            "facility_id": 460,
+            "name": "Registro de entrada/salida sin contacto"
+          },
+          {
+            "facility_id": 465,
+            "name": "Factura proporcionada"
+          },
+          {
+            "facility_id": 468,
+            "name": "Los huéspedes pueden optar por no recibir ningún servicio de limpieza durante la estancia."
+          },
+          {
+            "facility_id": 422,
+            "name": "alarmas de humo"
+          },
+          {
+            "facility_id": 466,
+            "name": "Propiedad limpiada por empresas de limpieza profesionales."
+          },
+          {
+            "facility_id": 424,
+            "name": "CCTV fuera de la propiedad"
+          },
+          {
+            "facility_id": 420,
+            "name": "Acceso con tarjeta llave"
+          }
+        ],
+        "policies": [
+          {
+            "policy_type": "POLICY_HOTEL_PARKING",
+            "name": "Estacionamiento",
+            "description": "No hay estacionamiento disponible.",
+            "child_allowed": "",
+            "pets_allowed": "",
+            "parking": "",
+            "id": 1915
+          },
+          {
+            "policy_type": "POLICY_CHILDREN",
+            "name": "Política de niños y camas adicionales",
+            "description": "Se permite la estancia de niños de todas las edades.  \nLos niños de hasta 17 años inclusive se alojan gratis al utilizar una cama existente.  \nNo ha añadido cunas.  \nNo ha añadido camas supletorias.  ",
+            "child_allowed": "",
+            "pets_allowed": "",
+            "parking": "",
+            "id": 3263
+          },
+          {
+            "policy_type": "POLICY_HOTEL_INTERNET",
+            "name": "Internet",
+            "description": "La conexión WiFi está disponible en las áreas públicas y es gratuita.",
+            "child_allowed": "",
+            "pets_allowed": "",
+            "parking": "",
+            "id": 5828
+          },
+          {
+            "policy_type": "POLICY_HOTEL_PETS",
+            "name": "Mascotas",
+            "description": "No se admiten mascotas.",
+            "child_allowed": "",
+            "pets_allowed": "",
+            "parking": "",
+            "id": 6206
+          }
+        ],
+        "rooms": [
+          {
+            "id": 2928254,
+            "room_name": "Habitación Sencilla - Sin Ventana",
+            "description": "Este cuarto individual cuenta con baño privado que incluye artículos de aseo gratuitos, ducha a nivel de suelo y secador de pelo. Además, dispone de aire acondicionado, entrada privada, paredes insonorizadas, cafetera, televisor de pantalla plana con canales vía satélite y una cama individual.",
+            "room_size_square": 7,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 1,
+            "max_children": 0,
+            "max_occupancy": 1,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama individual",
+                "bed_size": "90-130 cm de ancho",
+                "id": 37
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606693.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606693.jpg",
+                "image_description": "hotel room with a bed and clothes hangers on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.28,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/162983630.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/162983630.jpg",
+                "image_description": "close up of a pair of scissors on a stand",
+                "image_class1": "gimnasio",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.32,
+                "class_id": 62,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606686.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606686.jpg",
+                "image_description": "hotel room with a bed and a flat screen tv",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.15,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606678.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606678.jpg",
+                "image_description": "black and white photo of a bathroom with a sink and shower",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 4.96,
+                "class_id": 26,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928255,
+            "room_name": "Habitación Doble - Sin Ventana",
+            "description": "Este dormitorio doble incluye artículos de aseo gratuitos y un baño privado con una ducha a ras de suelo y un secador de pelo. Además, cuenta con aire acondicionado, entrada privada, paredes insonorizadas, una cafetera y una televisión de pantalla plana con canales vía satélite. La habitación dispone de una cama.",
+            "room_size_square": 8,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama doble",
+                "bed_size": "131-150 cm de ancho",
+                "id": 2
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606587.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606587.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.09,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606640.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606640.jpg",
+                "image_description": "bathroom with black cabinets and white towels on the shelves",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.48,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "image_description": "bathroom with a sink, shower and bed in the background",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.25,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606670.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606670.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.24,
+                "class_id": 80,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928256,
+            "room_name": "Habitación Queen - Sin ventana",
+            "description": "Este dormitorio doble cuenta con artículos de tocador gratuitos y un baño privado con ducha a ras de suelo y secador de pelo. La habitación doble equipada con aire acondicionado incluye un televisor de pantalla plana con canales vía satélite, entrada privada, paredes insonorizadas y una cafetera. La unidad dispone de una cama.",
+            "room_size_square": 9,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama doble",
+                "bed_size": "131-150 cm de ancho",
+                "id": 2
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 367,
+                "name": "Pisos superiores accesibles solo por escaleras.",
+                "sort": 167
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606699.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606699.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.36,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "image_description": "bathroom with a sink, shower and bed in the background",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.25,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606658.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606658.jpg",
+                "image_description": "bedroom with a black headboard and white bedding",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.12,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606678.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606678.jpg",
+                "image_description": "black and white photo of a bathroom with a sink and shower",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 4.96,
+                "class_id": 26,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928257,
+            "room_name": "Habitación Doble",
+            "description": "Este dormitorio doble ofrece artículos de aseo gratuitos y cuenta con un baño privado equipado con una ducha a ras de suelo y un secador de pelo. Además, dispone de aire acondicionado, entrada privada, paredes insonorizadas, una cafetera, televisión de pantalla plana con canales vía satélite y una cama grande.",
+            "room_size_square": 8,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama doble",
+                "bed_size": "131-150 cm de ancho",
+                "id": 2
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 371,
+                "name": "Vista",
+                "sort": 31
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606650.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606650.jpg",
+                "image_description": "hotel room with a large bed and a flat screen tv",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.22,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606632.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606632.jpg",
+                "image_description": "hotel room with a bed, sink, and television",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.16,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606709.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606709.jpg",
+                "image_description": "bathroom with a shower and a bed in the corner",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.12,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606737.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606737.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.1,
+                "class_id": 80,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928258,
+            "room_name": "Habitación Queen",
+            "description": "Este habitación doble ofrece artículos de tocador gratuitos e incluye un baño privado con una ducha a ras de suelo y un secador de pelo. Además, la habitación doble está equipada con aire acondicionado y cuenta con un televisor de pantalla plana con canales vía satélite, entrada privada, paredes con aislamiento acústico y una cafetera. La unidad dispone de 1 cama.",
+            "room_size_square": 9,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama doble",
+                "bed_size": "131-150 cm de ancho",
+                "id": 2
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 371,
+                "name": "Vista",
+                "sort": 31
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 367,
+                "name": "Pisos superiores accesibles solo por escaleras.",
+                "sort": 167
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606619.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606619.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 4.97,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606746.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606746.jpg",
+                "image_description": "black and white bathroom with a walk - in shower",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.62,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/166038487.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/166038487.jpg",
+                "image_description": "glass walled room with a bed in the middle of it",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.59,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606704.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606704.jpg",
+                "image_description": "hotel room with a large bed and a glass shower",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.23,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606639.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606639.jpg",
+                "image_description": "hotel room with a flat screen tv on the wall",
+                "image_class1": "club infantil",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.22,
+                "class_id": 87,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606720.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606720.jpg",
+                "image_description": "bedroom with a flat screen tv mounted on the wall",
+                "image_class1": "balcón",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.13,
+                "class_id": 12,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928259,
+            "room_name": "Habitación Queen - Acceso para personas con discapacidad",
+            "description": "La habitación doble cuenta con una entrada privada, paredes insonorizadas y un baño privado con una ducha a nivel del suelo y un secador de pelo. Esta habitación doble accesible para sillas de ruedas dispone de aire acondicionado, una zona de estar con televisor de pantalla plana y una ducha con acceso para sillas de ruedas. La unidad cuenta con 1 cama.",
+            "room_size_square": 15,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama grande (tamaño King)",
+                "bed_size": "151-180 cm de ancho",
+                "id": 36
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 371,
+                "name": "Vista",
+                "sort": 31
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 7,
+                "name": "Baño adaptado",
+                "sort": 170
+              },
+              {
+                "amenities_id": 98,
+                "name": "Cordón de emergencia en el baño.",
+                "sort": 164
+              },
+              {
+                "amenities_id": 314,
+                "name": "Silla de ducha",
+                "sort": 159
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606600.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606600.jpg",
+                "image_description": "hotel room with a small bed and a glass shower",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 4.98,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606664.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606664.jpg",
+                "image_description": "hotel room with a black headboard and white bedding",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.14,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606606.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606606.jpg",
+                "image_description": "hotel room with a bed in the middle of it",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.04,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606590.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606590.jpg",
+                "image_description": "bathroom with a glass shower door, sink and mirror",
+                "image_class1": "club infantil",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 4.83,
+                "class_id": 87,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928260,
+            "room_name": "Suite Junior",
+            "description": "Esta suite con entrada privada incluye un dormitorio y un baño con ducha a ras de suelo y secador de pelo. Cuenta con suelos de parqué, una zona de estar con televisor de pantalla plana y canales satelitales, paredes insonorizadas, tetera, cafetera, y calefacción. La unidad ofrece una cama.",
+            "room_size_square": 20,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 1,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama grande (tamaño King)",
+                "bed_size": "151-180 cm de ancho",
+                "id": 36
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 371,
+                "name": "Vista",
+                "sort": 31
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 367,
+                "name": "Pisos superiores accesibles solo por escaleras.",
+                "sort": 167
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/359860140.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/359860140.jpg",
+                "image_description": "bed with white sheets and pillows in a hotel room",
+                "image_class1": "Habitación y área de descanso",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.2,
+                "class_id": 159,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762977.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762977.jpg",
+                "image_description": "black and white bathroom with a walk - in shower",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.45,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/359859947.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/359859947.jpg",
+                "image_description": "bedroom with a large bed and a flat screen tv",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.18,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/359859627.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/359859627.jpg",
+                "image_description": "hotel room with a king size bed and a chair",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.04,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/359859846.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/359859846.jpg",
+                "image_description": "bedroom with a large bed and a flat screen tv",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.01,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/359859755.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/359859755.jpg",
+                "image_description": "hotel room with a bed, chair, and desk",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 4.96,
+                "class_id": 80,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928261,
+            "room_name": "Habitación Familiar - Sin Ventana",
+            "description": "Presentamos una habitación familiar que incluye artículos de tocador gratuitos y un baño privado con ducha a ras de suelo y secador de pelo. La habitación familiar con aire acondicionado cuenta con una televisión de pantalla plana con canales vía satélite, entrada privada, paredes insonorizadas y una cafetera. La unidad dispone de 1 cama.",
+            "room_size_square": 12,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 3,
+            "max_occupancy": 4,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama litera",
+                "bed_size": "Tamaño Variable",
+                "id": 40
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 5,
+                "name": "Accessible by elevator",
+                "sort": 29
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/166038492.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/166038492.jpg",
+                "image_description": "hotel room with a staircase leading up to the bed",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.26,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/162983630.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/162983630.jpg",
+                "image_description": "close up of a pair of scissors on a stand",
+                "image_class1": "gimnasio",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.32,
+                "class_id": 62,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/173606646.jpg",
+                "image_description": "bathroom with a sink, shower and bed in the background",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.25,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/245204357.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/245204357.jpg",
+                "image_description": "toothbrush and soap on a plate in front of a mirror",
+                "image_class1": "club infantil",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 4.93,
+                "class_id": 87,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          },
+          {
+            "id": 2928262,
+            "room_name": "Suite Junior con Terraza",
+            "description": "Esta suite con aire acondicionado incluye un televisor de pantalla plana con canales por satélite, un baño privado y una terraza con vistas a la ciudad. La unidad cuenta con 1 cama.",
+            "room_size_square": 9,
+            "room_size_unit": "m2",
+            "hotel_id": "1641879",
+            "max_adults": 2,
+            "max_children": 0,
+            "max_occupancy": 2,
+            "bed_relation": "NONE",
+            "bed_types": [
+              {
+                "quantity": 1,
+                "bed_type": "Cama grande (tamaño King)",
+                "bed_size": "151-180 cm de ancho",
+                "id": 36
+              }
+            ],
+            "room_amenities": [
+              {
+                "amenities_id": 64,
+                "name": "Cafetera/tetera.",
+                "sort": 0
+              },
+              {
+                "amenities_id": 312,
+                "name": "Ducha",
+                "sort": 0
+              },
+              {
+                "amenities_id": 339,
+                "name": "Televisor",
+                "sort": 0
+              },
+              {
+                "amenities_id": 11,
+                "name": "Aire acondicionado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 148,
+                "name": "Secador de cabello",
+                "sort": 0
+              },
+              {
+                "amenities_id": 82,
+                "name": "Escritorio",
+                "sort": 0
+              },
+              {
+                "amenities_id": 298,
+                "name": "Área de estar",
+                "sort": 59
+              },
+              {
+                "amenities_id": 106,
+                "name": "Ventilador",
+                "sort": 0
+              },
+              {
+                "amenities_id": 350,
+                "name": "Baño",
+                "sort": 10
+              },
+              {
+                "amenities_id": 266,
+                "name": "Baño privado",
+                "sort": 0
+              },
+              {
+                "amenities_id": 156,
+                "name": "Calefacción",
+                "sort": 0
+              },
+              {
+                "amenities_id": 295,
+                "name": "Canales satelitales",
+                "sort": 20
+              },
+              {
+                "amenities_id": 269,
+                "name": "Entrada privada",
+                "sort": 64
+              },
+              {
+                "amenities_id": 371,
+                "name": "Vista",
+                "sort": 31
+              },
+              {
+                "amenities_id": 152,
+                "name": "Pisos de madera dura o parqué.",
+                "sort": 26
+              },
+              {
+                "amenities_id": 96,
+                "name": "Hervidor eléctrico",
+                "sort": 0
+              },
+              {
+                "amenities_id": 57,
+                "name": "Vista a la ciudad",
+                "sort": 39
+              },
+              {
+                "amenities_id": 345,
+                "name": "Terraza",
+                "sort": 0
+              },
+              {
+                "amenities_id": 197,
+                "name": "Ropa de cama",
+                "sort": 43
+              },
+              {
+                "amenities_id": 367,
+                "name": "Pisos superiores accesibles solo por escaleras.",
+                "sort": 167
+              },
+              {
+                "amenities_id": 60,
+                "name": "Perchero de ropa",
+                "sort": 72
+              },
+              {
+                "amenities_id": 37,
+                "name": "Botella de agua.",
+                "sort": 152
+              },
+              {
+                "amenities_id": 361,
+                "name": "Papeleras",
+                "sort": 85
+              },
+              {
+                "amenities_id": 307,
+                "name": "Champú",
+                "sort": 0
+              },
+              {
+                "amenities_id": 35,
+                "name": "Jabón corporal",
+                "sort": 109
+              },
+              {
+                "amenities_id": 327,
+                "name": "Enchufe cerca de la cama",
+                "sort": 89
+              },
+              {
+                "amenities_id": 108,
+                "name": "Almohada de plumas",
+                "sort": 91
+              },
+              {
+                "amenities_id": 166,
+                "name": "Almohada hipoalergénica",
+                "sort": 93
+              },
+              {
+                "amenities_id": 322,
+                "name": "Alarma de humo",
+                "sort": 182
+              },
+              {
+                "amenities_id": 182,
+                "name": "Acceso con tarjeta clave",
+                "sort": 158
+              },
+              {
+                "amenities_id": 70,
+                "name": "Servicios de conserjería",
+                "sort": 0
+              }
+            ],
+            "photos": [
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762602.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762602.jpg",
+                "image_description": "black and white bedroom with a view of the city",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": true,
+                "score": 5.05,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762669.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762669.jpg",
+                "image_description": "deck with a couch, table, and two chairs",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.58,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762977.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762977.jpg",
+                "image_description": "black and white bathroom with a walk - in shower",
+                "image_class1": "baño",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.45,
+                "class_id": 26,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762687.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762687.jpg",
+                "image_description": "hotel room with a bed and a flat screen tv",
+                "image_class1": "habitación de hotel",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.33,
+                "class_id": 80,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762653.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762653.jpg",
+                "image_description": "view from the roof of an apartment in new york city",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.29,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587763011.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587763011.jpg",
+                "image_description": "view of london from the top of one of the buildings",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.29,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762989.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762989.jpg",
+                "image_description": "balcony with a table and chairs overlooking a cityscape",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.25,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762719.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762719.jpg",
+                "image_description": "view from the roof of a building in london?",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.21,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587763019.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587763019.jpg",
+                "image_description": "panoramic view of the city of london?",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.1,
+                "class_id": 153,
+                "class_order": 0
+              },
+              {
+                "url": "https://static.cupid.travel/rooms-large-pictures/587762999.jpg",
+                "hd_url": "https://static.cupid.travel/rooms-large-pictures/587762999.jpg",
+                "image_description": "panoramic view of the city of london?",
+                "image_class1": "techo",
+                "image_class2": "",
+                "main_photo": false,
+                "score": 5.01,
+                "class_id": 153,
+                "class_order": 0
+              }
+            ],
+            "views": []
+          }
+        ],
+        "reviews": null
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }]
+}

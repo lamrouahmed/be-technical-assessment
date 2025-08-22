@@ -1,0 +1,630 @@
+{
+  "mappings": [{
+    "scenarioName": "Response For Facilities - 200 OK",
+    "request": {
+      "method": "GET",
+      "urlPath": "/v3.0/property/facilities"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": [{
+        "facility_id": 2263,
+        "facility": "Farming classes",
+        "sort": 0,
+        "translation": [
+          {
+            "lang": "it",
+            "facility": "Lezioni di agricoltura"
+          },
+          {
+            "lang": "fr",
+            "facility": "Cours d&#39;agriculture"
+          },
+          {
+            "lang": "es",
+            "facility": "clases de agricultura"
+          },
+          {
+            "lang": "de",
+            "facility": "Landwirtschaftskurse"
+          },
+          {
+            "lang": "tr",
+            "facility": "Çiftçilik dersleri"
+          },
+          {
+            "lang": "ar",
+            "facility": "دروس الزراعة"
+          },
+          {
+            "lang": "nl",
+            "facility": "Landbouwlessen"
+          },
+          {
+            "lang": "pl",
+            "facility": "Zajęcia rolnicze"
+          },
+          {
+            "lang": "cs",
+            "facility": "Zemědělské kurzy"
+          },
+          {
+            "lang": "hu",
+            "facility": "Farming classes "
+          },
+          {
+            "lang": "pt",
+            "facility": "Aulas de agricultura"
+          },
+          {
+            "lang": "ro",
+            "facility": "Ferme de învățătură"
+          },
+          {
+            "lang": "ru",
+            "facility": "фермерские уроки"
+          },
+          {
+            "lang": "el",
+            "facility": "Μαθήματα γεωργίας"
+          },
+          {
+            "lang": "bg",
+            "facility": "Курсове по земеделие"
+          },
+          {
+            "lang": "sv",
+            "facility": "Odlingskurser"
+          },
+          {
+            "lang": "hr",
+            "facility": "Tečajevi uzgoja"
+          },
+          {
+            "lang": "sk",
+            "facility": "Rancherské kurzy"
+          },
+          {
+            "lang": "lt",
+            "facility": "Žemės ūkio pamokos"
+          },
+          {
+            "lang": "nb",
+            "facility": "Kurs i landbruk"
+          },
+          {
+            "lang": "da",
+            "facility": "Landbrugsundervisning"
+          },
+          {
+            "lang": "ja",
+            "facility": "農業教室"
+          },
+          {
+            "lang": "lv",
+            "facility": "Lauksaimniecības nodarbības"
+          },
+          {
+            "lang": "uk",
+            "facility": "Класи з фермерства"
+          },
+          {
+            "lang": "zh",
+            "facility": "农业课程"
+          },
+          {
+            "lang": "sl",
+            "facility": "Kmetijske delavnice"
+          },
+          {
+            "lang": "fi",
+            "facility": "Maatalousluokat"
+          },
+          {
+            "lang": "ca",
+            "facility": "Classes d'agricultura"
+          },
+          {
+            "lang": "et",
+            "facility": "Põllumajanduse kursused"
+          }
+        ]
+      },
+        {
+          "facility_id": 1390,
+          "facility": "Accessible bus station shuttle",
+          "sort": 0,
+          "translation": [
+            {
+              "lang": "pl",
+              "facility": "Dostępny przystanek autobusowy z wahadłowcem"
+            },
+            {
+              "lang": "fr",
+              "facility": "Navette gare routière accessible"
+            },
+            {
+              "lang": "it",
+              "facility": "Navetta accessibile alla stazione degli autobus"
+            },
+            {
+              "lang": "es",
+              "facility": "Transporte accesible a la estación de autobuses."
+            },
+            {
+              "lang": "de",
+              "facility": "Barrierefreier Shuttle zum Busbahnhof"
+            },
+            {
+              "lang": "tr",
+              "facility": "Erişilebilir otobüs durağı servisi"
+            },
+            {
+              "lang": "ar",
+              "facility": "محطة حافلات يمكن الوصول إليها بسهولة"
+            },
+            {
+              "lang": "nl",
+              "facility": "Toegankelijke busstation shuttle"
+            },
+            {
+              "lang": "cs",
+              "facility": "Přístupná autobusová zastávka kyvadlové dopravy"
+            },
+            {
+              "lang": "hu",
+              "facility": "Hozzáférhető buszmegálló transzfer"
+            },
+            {
+              "lang": "pt",
+              "facility": "Transporte de ônibus acessível para a estação."
+            },
+            {
+              "lang": "ro",
+              "facility": "Transport gratuit către stația de autobuz accesibilă"
+            },
+            {
+              "lang": "ru",
+              "facility": "Доступная автобусная станция."
+            },
+            {
+              "lang": "el",
+              "facility": "Προσιτό Λεωφορείο Σταθμός Μεταφοράς"
+            },
+            {
+              "lang": "bg",
+              "facility": "Достъпен транспортен автобусен спирателен пункт"
+            },
+            {
+              "lang": "sv",
+              "facility": "Tillgänglig busstation bussförbindelse"
+            },
+            {
+              "lang": "hr",
+              "facility": "Dostupan autobusni stajalište shuttle"
+            },
+            {
+              "lang": "sk",
+              "facility": "Prístupná autobusová zastávka skibusu"
+            },
+            {
+              "lang": "lt",
+              "facility": "Prieinama autobuso stotelė su transporto paslaugomis"
+            },
+            {
+              "lang": "nb",
+              "facility": "Tilgjengelig bussrute med skyttelbuss"
+            },
+            {
+              "lang": "da",
+              "facility": "Tilgængelig shuttlebus til stationen"
+            },
+            {
+              "lang": "ja",
+              "facility": "障害者向けバスステーションシャトル"
+            },
+            {
+              "lang": "lv",
+              "facility": "Pieejams autobusu stacijas transports"
+            },
+            {
+              "lang": "uk",
+              "facility": "Доступна автобусна станція трансфер"
+            },
+            {
+              "lang": "zh",
+              "facility": "无障碍公交车站接驳服务"
+            },
+            {
+              "lang": "sl",
+              "facility": "Dostopna avtobusna postaja za prevoze"
+            },
+            {
+              "lang": "fi",
+              "facility": "Esteettömän bussiaseman kuljetus"
+            },
+            {
+              "lang": "ca",
+              "facility": "Servei d'autobús adaptat"
+            },
+            {
+              "lang": "et",
+              "facility": "Juurdepääsetav bussijaama sõiduteenus"
+            }
+          ]
+        },
+        {
+          "facility_id": 2266,
+          "facility": "Annual carbon offsets",
+          "sort": 0,
+          "translation": [
+            {
+              "lang": "fr",
+              "facility": "Compensations carbone annuelles"
+            },
+            {
+              "lang": "et",
+              "facility": "Aastased süsinikuheite kompensatsioonid"
+            },
+            {
+              "lang": "ca",
+              "facility": "Compensacions anuals de carboni"
+            },
+            {
+              "lang": "fi",
+              "facility": "Vuosittaiset hiilidioksidipäästöjen kompensoinnit"
+            },
+            {
+              "lang": "sl",
+              "facility": "Letni ogljični kompenzaciji"
+            },
+            {
+              "lang": "zh",
+              "facility": "年度碳抵消"
+            },
+            {
+              "lang": "uk",
+              "facility": "Щорічні викиди вуглецю"
+            },
+            {
+              "lang": "lv",
+              "facility": "Gada oglekļa emisiju kompensācijas"
+            },
+            {
+              "lang": "ja",
+              "facility": "年間カーボンオフセット"
+            },
+            {
+              "lang": "da",
+              "facility": "Årlige CO2-kompensationer"
+            },
+            {
+              "lang": "nb",
+              "facility": "Årlige karbonkompensasjoner"
+            },
+            {
+              "lang": "lt",
+              "facility": "Metiniai anglies dioksido kompensacijos"
+            },
+            {
+              "lang": "sk",
+              "facility": "Ročné uhlíkové kompenzácie"
+            },
+            {
+              "lang": "hr",
+              "facility": "Godišnje kompenzacije ugljika"
+            },
+            {
+              "lang": "sv",
+              "facility": "Årliga koldioxidavräkningar"
+            },
+            {
+              "lang": "bg",
+              "facility": "Годишни компенсации на въглеродни емисии"
+            },
+            {
+              "lang": "el",
+              "facility": "Ετήσιες αντισταθμίσεις άνθρακα"
+            },
+            {
+              "lang": "ru",
+              "facility": "Годовая компенсация углеродного следа"
+            },
+            {
+              "lang": "ro",
+              "facility": "Compensare anuală a emisiilor de carbon"
+            },
+            {
+              "lang": "pt",
+              "facility": "Compensações anuais de carbono"
+            },
+            {
+              "lang": "hu",
+              "facility": "Éves szén-dioxid-kibocsátás-kompenzáció"
+            },
+            {
+              "lang": "cs",
+              "facility": "Roční uhlíkové vyrovnání"
+            },
+            {
+              "lang": "pl",
+              "facility": "Roczne kompensacje węgla"
+            },
+            {
+              "lang": "nl",
+              "facility": "Jaarlijkse koolstofcompensaties"
+            },
+            {
+              "lang": "ar",
+              "facility": "تعويضات الكربون السنوية"
+            },
+            {
+              "lang": "tr",
+              "facility": "Yıllık karbon dengelemeleri"
+            },
+            {
+              "lang": "de",
+              "facility": "Jährliche CO2-Kompensationen"
+            },
+            {
+              "lang": "es",
+              "facility": "Compensaciones anuales de carbono"
+            },
+            {
+              "lang": "it",
+              "facility": "Compensazioni annuali di carbonio"
+            }
+          ]
+        },
+        {
+          "facility_id": 2411,
+          "facility": "Sustainability/community reinvestment (10% revenue or more)",
+          "sort": 0,
+          "translation": [
+            {
+              "lang": "zh",
+              "facility": "可持续性/社区再投资（10%收入或更多）"
+            },
+            {
+              "lang": "fr",
+              "facility": "Durabilité/réinvestissement communautaire (10 % des revenus ou plus)"
+            },
+            {
+              "lang": "it",
+              "facility": "Sostenibilità/reinvestimento nella comunità (10% delle entrate o più)"
+            },
+            {
+              "lang": "es",
+              "facility": "Sostenibilidad/reinversión comunitaria (10% de ingresos o más)"
+            },
+            {
+              "lang": "de",
+              "facility": "Nachhaltigkeit/Reinvestition in die Gemeinschaft (10 % des Umsatzes oder mehr)"
+            },
+            {
+              "lang": "tr",
+              "facility": "Sürdürülebilirlik/toplum yatırımı (%10 veya daha fazla gelir)"
+            },
+            {
+              "lang": "ar",
+              "facility": "الاستدامة/إعادة الاستثمار المجتمعي (10% من الإيرادات أو أكثر)"
+            },
+            {
+              "lang": "nl",
+              "facility": "Duurzaamheid/herinvestering in de gemeenschap (10% omzet of meer)"
+            },
+            {
+              "lang": "pl",
+              "facility": "Zrównoważony rozwój/reinwestycja w społeczność (10% przychodu lub więcej)"
+            },
+            {
+              "lang": "cs",
+              "facility": "Udržitelnost/ reinvestice do komunity (10 % příjmů nebo více)"
+            },
+            {
+              "lang": "hu",
+              "facility": "Fenntarthatóság/közösségi visszaforgatás (10% bevétel vagy annál több)"
+            },
+            {
+              "lang": "pt",
+              "facility": "Sustentabilidade/reinvestimento na comunidade (10% da receita ou mais)"
+            },
+            {
+              "lang": "ro",
+              "facility": "Sustenabilitate/reinvestire comunitară (10% din venituri sau mai mult)"
+            },
+            {
+              "lang": "ru",
+              "facility": "Устойчивость/реинвестирование в сообщество (10% дохода или более)"
+            },
+            {
+              "lang": "el",
+              "facility": "Αειφορία/επανένταξη στην κοινότητα (10% του κύκλου εργασιών ή περισσότερο)"
+            },
+            {
+              "lang": "bg",
+              "facility": "Устойчивост/повторно инвестиране в общността (10% или повече от приходите)"
+            },
+            {
+              "lang": "sv",
+              "facility": "Hållbarhet/gemenskapsåterinvestering (10% av intäkterna eller mer)"
+            },
+            {
+              "lang": "hr",
+              "facility": "Održivost/reinvestiranje u zajednicu (10% prihoda ili više)"
+            },
+            {
+              "lang": "sk",
+              "facility": "Udržateľnosť/ reinvestovanie do komunity (10% príjmu alebo viac)"
+            },
+            {
+              "lang": "lt",
+              "facility": "Tvarumas/bendruomenės investicijos (10% pajamų arba daugiau)"
+            },
+            {
+              "lang": "nb",
+              "facility": "Bærekraft / samfunnsinvestering (10 % av inntektene eller mer)"
+            },
+            {
+              "lang": "da",
+              "facility": "Bæredygtighed/økonomisk geninvestering i lokalsamfundet (10 % af indtægterne eller mere)"
+            },
+            {
+              "lang": "ja",
+              "facility": "持続可能性／地域再投資 (収益の10%またはそれ以上)"
+            },
+            {
+              "lang": "lv",
+              "facility": "Ilgtspējība/kopienas ieguldījums (10% ienākumu vai vairāk)"
+            },
+            {
+              "lang": "uk",
+              "facility": "Сталий розвиток / реінвестування в громаду (10% доходу або більше)"
+            },
+            {
+              "lang": "sl",
+              "facility": "Trajnostni razvoj/skupnostno ponovno investiranje (10% prihodkov ali več)"
+            },
+            {
+              "lang": "fi",
+              "facility": "Kestävyys/yhteisöinvestointi (10 % tuloista tai enemmän)"
+            },
+            {
+              "lang": "ca",
+              "facility": "Sostenibilitat/reinversió en la comunitat (10% dels ingressos o més)"
+            },
+            {
+              "lang": "et",
+              "facility": "Kestlikkus/kogukonna reinvesteerimine (10% tulu või rohkem)"
+            }
+          ]
+        },
+        {
+          "facility_id": 2010,
+          "facility": "Arcade/game room",
+          "sort": 0,
+          "translation": [
+            {
+              "lang": "bg",
+              "facility": "Игрална зала"
+            },
+            {
+              "lang": "es",
+              "facility": "Sala de juegos/salón de juegos"
+            },
+            {
+              "lang": "de",
+              "facility": "Spielhalle/Spielzimmer"
+            },
+            {
+              "lang": "tr",
+              "facility": "Atari salonu/oyun odası"
+            },
+            {
+              "lang": "ar",
+              "facility": "صالة الألعاب/غرفة الألعاب"
+            },
+            {
+              "lang": "nl",
+              "facility": "Speelhal/spelkamer"
+            },
+            {
+              "lang": "pl",
+              "facility": "Pokój gier"
+            },
+            {
+              "lang": "cs",
+              "facility": "Herní místnost"
+            },
+            {
+              "lang": "hu",
+              "facility": "Játékterem"
+            },
+            {
+              "lang": "pt",
+              "facility": "Sala de jogos/arcade"
+            },
+            {
+              "lang": "ro",
+              "facility": "Sală de jocuri arcade"
+            },
+            {
+              "lang": "ru",
+              "facility": "Комната аркадных игр"
+            },
+            {
+              "lang": "el",
+              "facility": "Αίθουσα παιχνιδιών / καζίνο"
+            },
+            {
+              "lang": "sv",
+              "facility": "Spelrum"
+            },
+            {
+              "lang": "hr",
+              "facility": "Igraonica"
+            },
+            {
+              "lang": "sk",
+              "facility": "Herná miestnosť"
+            },
+            {
+              "lang": "lt",
+              "facility": "Žaidimų kambarys"
+            },
+            {
+              "lang": "nb",
+              "facility": "Spillrom"
+            },
+            {
+              "lang": "da",
+              "facility": "Spillehal"
+            },
+            {
+              "lang": "ja",
+              "facility": "アーケード/ゲームルーム"
+            },
+            {
+              "lang": "lv",
+              "facility": "Spēļu telpa"
+            },
+            {
+              "lang": "uk",
+              "facility": "Аркада/ігорна кімната"
+            },
+            {
+              "lang": "zh",
+              "facility": "游戏室"
+            },
+            {
+              "lang": "sl",
+              "facility": "Igraonica"
+            },
+            {
+              "lang": "fi",
+              "facility": "Peli- ja viihdetila"
+            },
+            {
+              "lang": "ca",
+              "facility": "Sala de jocs"
+            },
+            {
+              "lang": "et",
+              "facility": "Mängusaal"
+            },
+            {
+              "lang": "it",
+              "facility": "Sala giochi/sala giochi"
+            },
+            {
+              "lang": "fr",
+              "facility": "Salle d&#39;arcade/de jeux"
+            }
+          ]
+        }],
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }]
+}
